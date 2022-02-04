@@ -1,7 +1,8 @@
 n = int(input())
-substring = "gmail.com"
 for i in range(0, n):
-    string = str(input)
-    if (substring in string):
-        print()
+    s = input()
+    st = "@gmail.com"
+    if (st in s):
+        removed = s.replace("@gmail.com", "")
+        print(removed)
     
