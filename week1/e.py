@@ -2,7 +2,7 @@ a,f = input().split()
 a = int(a)
 f = int(f)
 k = 0
-for i in range(2, a // 2 + 1):
+for i in range(2, a):
     if (a % i == 0): 
         k = k+1
 if (k == 0 and a < 500 and f % 2 == 0):
