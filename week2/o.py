@@ -8,5 +8,5 @@ SEV = 7
 EIG = 8
 NIN = 9
 ZER = 0
-s = input()
+s = input() 
 print(s - '0')
