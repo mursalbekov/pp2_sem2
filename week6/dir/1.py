@@ -1,4 +1,3 @@
-# Write a Python program to list only directories, files and all directories, files in a specified path.
 import os
 path = '\Users\tawer\OneDrive\Рабочий стол\pp2\pp2py\week6\builtin'
 
