@@ -44,7 +44,7 @@ while not finished:
     clock.tick(FPS)
     pos = pygame.mouse.get_pos()
     pos = [pos[0],pos[1]]
-    screen.blit(palette,(0,0))
+    screen.blit(palette,(0,400))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             finished = True

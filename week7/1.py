@@ -1,12 +1,12 @@
 import pygame 
 import datetime 
-
+clock = pygame.time.Clock()
 window = pygame.display.set_mode((1116,720))
 img = pygame.image.load('layer.png')
 
 left = pygame.image.load('left_hand.png')
 right =  pygame.image.load('right_hand.png')
-
+FPS = 60
 while True:
     
     for event in pygame.event.get():
