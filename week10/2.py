@@ -58,7 +58,7 @@ def gameLoop():
     foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
     foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
     def record_to_db(name,score):
-    try:
+        try:
         connection=psycopg2.connect(user='postgres',password='Prom2021',host='localhost',port='5432',database='postgres')
         cursor=connection.cursor()
         cursor.execute('SELECT EXISTS(select from SCORE where name=%s)',(name,))
